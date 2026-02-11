@@ -1,0 +1,1 @@
+export { BodyMetricsPage } from './BodyMetricsPage'
