@@ -37,7 +37,7 @@ function PageLoader() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/claudefit">
       <AmbientGlow />
       <Suspense fallback={<PageLoader />}>
         <Routes>
